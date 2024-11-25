@@ -1,5 +1,12 @@
 # Role API Postman Collection
 
+## Features
+
+- **Role-based Authentication:** Implement secure authentication based on user roles, ensuring that users have appropriate access levels.
+- **Permission Management:** Define and manage granular permissions to control user actions and access within the application.
+- **User Management API Endpoints:** Explore a variety of API endpoints for effective user management, allowing operations such as user creation, deletion, and retrieval.
+- **Post and Post Category:** A newly added feature includes post and post category management, expanding the functionality of the application.
+
 This repository contains a Postman collection for testing various Role-related API endpoints. These API endpoints are designed for user registration, login, role management, permission assignments, and more.
 
 ## Postman Collection Overview
