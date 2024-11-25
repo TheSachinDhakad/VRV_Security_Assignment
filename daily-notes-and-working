@@ -1,0 +1,109 @@
+18-02-2024: 
+
+User Register, and Create and Admin.
+Installed Packages: npm i bcrypt, and npm i express-validator
+
+19-02-2024:
+
+User Login with JWT Token.
+Installed Packages: npm i jsonwebtoken
+
+20-02-2024:
+
+Worked on the permission model. and create add permission API for Admin.
+
+21-02-2024:
+
+Creating the Auth Middleware & working on the Profile API
+
+23-02-2024:
+
+Worked on the Create Read, Delete, and Update Permission API
+
+24-02-2024:
+
+Worked On Only Admin can access Permissons APIs by using Middleware Part.
+New Middleware Created: adminMiddleware.js
+
+25-02-2024:
+
+Working on Creating the CRUD APIs for Category Part.
+
+26-02-2024:
+
+Worked on Creating the CRUD APIs for Category Part. (prevent from entering duplicate entry in category)
+
+29-02-2024:
+
+Work completed in CRUD APIs of Category (Update Category API completed).
+Working on the new Create & Read Post APIs.
+
+<!-- March 2024 Month Work Start -->
+
+01-03-2024:
+
+Working on Create and Read Post API's
+
+02-03-2024:
+
+Create New Post, and Get All Posts API's are completed.
+Now Working on Delete Post and Update Post API's 
+
+04-03-2024:
+
+Work completed on Delete Post and Update Post API's 
+working on Store and Get Roles API for Admin
+
+06-03-2024:
+
+Model, Controllers and Routes are setup for the Role API's Part
+
+07-03-2024:
+
+Store and Get Roles API's for Admin Completed.
+Working on the create new user API.
+Installed Packages: npm i randomstring
+The randomstring library is a useful tool for generating random strings in Node.js. 
+
+08-05-2024:
+
+Completed Create Users API. Implemented input validation, password hashing, and prevented admin user creation. Checks for existing emails. API provides clear error messages and returns user data upon successful creation.
+
+- Worked completed on Send Mail to User with their Details & Password Part
+Installed Packages: npm i nodemailer (Nodemailer is an easy to use module to send e-mails with Node.JS)
+
+"important note:" = Note that the mail sending functionality is currently disabled in the provided code due to the removal of Mailtrap credentials. To enable email sending, please replace the placeholder credentials in the mailer.js file with your valid Mailtrap or SMTP server credentials.
+Once the credentials are updated, the Send Mail functionality should work seamlessly.
+
+09-05-2024:
+
+Working on the Get Users and Update User API
+Get User API Route and methods are Created.
+
+11-05-2024:
+
+Update User Data By ID API Completed.
+Working on Delete User, Post like, UnLike, Like Count APIs.
+
+12-05-2024:
+
+Work completed in Delete User API.
+Post Like API is Completed (New validator file (postValidator.js) is created, new controller is created (likeController.js)).
+Post Unlike and Post Like Count API is completed (Changes in commonRoutes.js File, postValidator.js file, and likeController File).
+
+13-05-2024:
+
+Working on Assign Default Permissions on User Registration
+
+14-05-2024:
+
+Completed the Assign Default Permissions on User Registration Part
+Also, Worked completed on the Create Query for Get Permissions in Login API Part
+
+15-05-2024:
+
+Working on Add Permissions in Get and Create User API Part
+
+13-04-2024:
+
+Just been caught up with other stuff lately, but now I'm back and ready to keep working on this project.
