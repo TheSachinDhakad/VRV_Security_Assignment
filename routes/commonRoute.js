@@ -8,6 +8,7 @@ const { addCategoryValidator, categoryDeleteValidator, updateCategoryValidator, 
 const { createUserValidator, updateUserValidator, deleteUserValidator } = require('../helpers/userValidator');
 
 const { postLikeAndUnlikeValidator, postLikeCountValidator } = require('../helpers/postValidator');
+const { createComment, getCommentsByPost, updateComment, deleteComment } = require('../controllers/commentController');
 
 
 const categoryController = require('../controllers/categoryController');
@@ -51,5 +52,12 @@ router.post('/delete-user', auth, deleteUserValidator, userController.deleteUser
 router.post('/post-like', auth, postLikeAndUnlikeValidator, likeController.postLike);
 router.post('/post-unlike', auth, postLikeAndUnlikeValidator, likeController.postUnlike);
 router.post('/post-like-count', auth, postLikeCountValidator, likeController.postLikeCount);
+
+
+// Create a new comment
+router.post('/create-comment', auth, createComment);
+router.get('/comments/:post_id', auth, getCommentsByPost);
+router.put('/update-comment/:comment_id', auth, updateComment);
+router.delete('/delete-comment/:comment_id', auth, deleteComment);
 
 module.exports = router;
