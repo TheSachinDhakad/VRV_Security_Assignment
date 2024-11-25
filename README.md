@@ -48,7 +48,7 @@ The Postman collection includes the following endpoints:
    - **Body**:
      ```json
      {
-       "permission_name": "Delete"
+       "permission_name": "Blog Management"
      }
      ```
 
